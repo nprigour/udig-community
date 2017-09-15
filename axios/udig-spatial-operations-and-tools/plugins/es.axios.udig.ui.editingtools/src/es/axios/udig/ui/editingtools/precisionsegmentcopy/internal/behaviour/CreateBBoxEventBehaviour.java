@@ -273,7 +273,7 @@ public class CreateBBoxEventBehaviour implements EventBehaviour {
 			e1.printStackTrace();
 		} finally {
 			if (iterator != null) {
-				collection.close(iterator);
+				iterator.close();
 			}
 		}
 
@@ -335,7 +335,7 @@ public class CreateBBoxEventBehaviour implements EventBehaviour {
 			e1.printStackTrace();
 		} finally {
 			if (iterator != null) {
-				collection.close(iterator);
+				iterator.close();
 			}
 		}
 

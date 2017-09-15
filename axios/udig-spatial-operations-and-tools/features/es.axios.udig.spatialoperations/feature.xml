@@ -45,7 +45,6 @@ Lesser General Public License for more details
       <import plugin="net.refractions.udig.project.ui" version="1.2.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.edit.ui"/>
       <import plugin="es.axios.udig.ui.commons"/>
-      <import feature="net.refractions.udig_platform" version="1.2.0"/>
    </requires>
 
    <plugin

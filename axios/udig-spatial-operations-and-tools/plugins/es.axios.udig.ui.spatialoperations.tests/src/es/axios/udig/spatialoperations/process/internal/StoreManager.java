@@ -33,7 +33,7 @@ import org.geotools.data.DataUtilities;
 import org.geotools.data.FeatureSource;
 import org.geotools.data.FeatureStore;
 import org.geotools.data.memory.MemoryDataStore;
-import org.geotools.data.shapefile.indexed.IndexedShapefileDataStoreFactory;
+import org.geotools.data.shapefile.ShapefileDataStoreFactory;
 import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
 
@@ -64,7 +64,7 @@ public final class StoreManager {
         
         try {
             SimpleFeatureType type = DataUtilities.createType("target", "geom:MultyPolygon, name:String" );
-            IndexedShapefileDataStoreFactory storeFactory = new IndexedShapefileDataStoreFactory();
+            ShapefileDataStoreFactory storeFactory = new ShapefileDataStoreFactory();
             DataStore dataStore = storeFactory.createDataStore(url);
             dataStore.createSchema(type);
             

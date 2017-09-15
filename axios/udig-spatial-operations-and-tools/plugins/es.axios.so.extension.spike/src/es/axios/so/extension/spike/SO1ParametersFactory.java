@@ -1,6 +1,7 @@
 package es.axios.so.extension.spike;
 
 import org.eclipse.swt.custom.ScrolledComposite;
+import org.eclipse.swt.graphics.Image;
 
 import es.axios.udig.spatialoperations.ui.parameters.IImageOperation;
 import es.axios.udig.spatialoperations.ui.parameters.ISOAggregatedPresenter;
@@ -16,6 +17,12 @@ public class SO1ParametersFactory implements ISOParametersPresenterFactory {
 	public IImageOperation createDemoImages() {
 		// TODO Auto-generated method stub
 		return new SO1Images();
+	}
+
+	@Override
+	public Image createIcon() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

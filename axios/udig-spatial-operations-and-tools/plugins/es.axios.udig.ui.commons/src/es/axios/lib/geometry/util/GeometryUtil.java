@@ -26,9 +26,9 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Set;
 
 import org.geotools.feature.FeatureCollection;
+import org.geotools.feature.FeatureIterator;
 import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
 
@@ -85,10 +85,10 @@ public class GeometryUtil {
 	public static Geometry geometryUnion(final FeatureCollection<SimpleFeatureType, SimpleFeature> featureCollection) {
 
 		Geometry resultGeom = null;
-		Iterator<SimpleFeature> iterator = null;
+		FeatureIterator<SimpleFeature> iterator = null;
 		try {
 			SimpleFeature currFeature;
-			iterator = featureCollection.iterator();
+			iterator = featureCollection.features();
 			while (iterator.hasNext()) {
 
 				currFeature = iterator.next();
@@ -106,7 +106,7 @@ public class GeometryUtil {
 		} finally {
 			// ask feature collection to close potentially still open iterators
 			if (iterator != null) {
-				featureCollection.close(iterator);
+				iterator.close();
 			}
 		}
 		return resultGeom;
@@ -124,7 +124,7 @@ public class GeometryUtil {
 	 */
 	public static Geometry[] extractGeometries(final FeatureCollection<SimpleFeatureType, SimpleFeature> featureCollection) {
 
-		Iterator<SimpleFeature> iter = featureCollection.iterator();
+		FeatureIterator<SimpleFeature> iter = featureCollection.features();
 		try {
 			SimpleFeature feature;
 			ArrayList<Geometry> geometries = new ArrayList<Geometry>(featureCollection.size());
@@ -153,7 +153,7 @@ public class GeometryUtil {
 			return geometries.toArray(new Geometry[finalSize]);
 
 		} finally {
-			featureCollection.close(iter);
+			iter.close();
 		}
 
 	}

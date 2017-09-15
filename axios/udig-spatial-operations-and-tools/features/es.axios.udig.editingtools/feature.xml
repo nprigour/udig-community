@@ -47,7 +47,6 @@ Lesser General Public License for more details
       <import plugin="net.refractions.udig.mapgraphic"/>
       <import plugin="org.eclipse.help"/>
       <import plugin="es.axios.udig.ui.commons"/>
-      <import feature="net.refractions.udig_platform" version="1.2.0"/>
    </requires>
 
    <plugin

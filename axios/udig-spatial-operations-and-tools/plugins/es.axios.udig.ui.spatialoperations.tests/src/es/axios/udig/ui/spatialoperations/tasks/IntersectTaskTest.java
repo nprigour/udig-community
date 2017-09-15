@@ -214,7 +214,7 @@ public class IntersectTaskTest extends AbstractTaskTest {
 		}
 		finally {
 			if (it != null) {
-				fc.close(it);
+				it.close();
 			}
 		}
 	}

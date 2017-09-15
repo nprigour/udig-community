@@ -27,6 +27,7 @@ import net.refractions.udig.mapgraphic.grid.GridMapGraphic;
 import net.refractions.udig.mapgraphic.grid.GridStyle;
 import net.refractions.udig.project.ILayer;
 import net.refractions.udig.project.IMap;
+import net.refractions.udig.project.Interaction;
 import net.refractions.udig.project.render.IViewportModel;
 import net.refractions.udig.project.ui.AnimationUpdater;
 import net.refractions.udig.project.ui.tool.IToolContext;
@@ -284,7 +285,7 @@ public class SnapSegmentFinder {
 										final Point centerPoint,
 										final int snappingRadius,
 										MinSegFinder minFinder) {
-		if (!layer.hasResource(FeatureSource.class) || !layer.isApplicable(EditPlugin.ID) || !layer.isVisible())
+		if (!layer.hasResource(FeatureSource.class) || !layer.getInteraction(Interaction.EDIT) || !layer.isVisible())
 			return;
 
 		final ILayer editLayer = context.getEditManager().getEditLayer();
@@ -322,7 +323,7 @@ public class SnapSegmentFinder {
 				}
 			} finally {
 				if (iter != null) {
-					features.close(iter);
+					iter.close();
 				}
 			}
 		} catch (Exception e) {

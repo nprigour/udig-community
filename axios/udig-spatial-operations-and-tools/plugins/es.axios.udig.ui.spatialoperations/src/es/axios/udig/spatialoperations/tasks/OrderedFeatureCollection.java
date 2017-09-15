@@ -279,7 +279,7 @@ final class OrderedFeatureCollection implements FeatureCollection<SimpleFeatureT
 	 * @deprecated
 	 */
 	public void close(FeatureIterator<SimpleFeature> iter) {
-		this.sortedCollection.close(iter);
+		this.sortedCollection.features().close();
 	}
 
 
@@ -288,7 +288,7 @@ final class OrderedFeatureCollection implements FeatureCollection<SimpleFeatureT
 	 */
 	public void close(Iterator<SimpleFeature> iter) {
 
-		this.sortedCollection.close(iter);
+		this.sortedCollection.features().close();
 	}
 
 	public Iterator<SimpleFeature> iterator() {
@@ -339,11 +339,6 @@ final class OrderedFeatureCollection implements FeatureCollection<SimpleFeatureT
 
 	public SimpleFeatureType getSchema() {
 		return this.sortedCollection.getSchema();
-	}
-
-	@Deprecated
-	public void purge() {
-		this.sortedCollection.purge();
 	}
 
 	public boolean contains(Object o) {

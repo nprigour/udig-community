@@ -7,9 +7,7 @@ Bundle-Vendor: Axios.es
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.core.runtime,
  net.refractions.udig.project.ui;bundle-version="1.2.0"
-Export-Package: es,
- es.axios,
- es.axios.geotools,
+Export-Package: 
  es.axios.geotools.util;
   uses:="org.geotools.feature.simple,
    org.geotools.geometry.jts,
@@ -20,16 +18,11 @@ Export-Package: es,
    com.vividsolutions.jts.geom,
    org.opengis.referencing.crs",
  es.axios.geotools.util.split,
- es.axios.lib,
- es.axios.lib.geometry,
  es.axios.lib.geometry.merge;uses:="com.vividsolutions.jts.geom",
  es.axios.lib.geometry.split;uses:="com.vividsolutions.jts.geom,com.vividsolutions.jts.geomgraph",
  es.axios.lib.geometry.trim;uses:="com.vividsolutions.jts.geom",
  es.axios.lib.geometry.util;uses:="org.opengis.feature.simple,org.geotools.feature,com.vividsolutions.jts.geom",
- es.axios.udig,
- es.axios.udig.ui,
  es.axios.udig.ui.commons,
- es.axios.udig.ui.commons.internal;x-internal:=true,
  es.axios.udig.ui.commons.internal.i18n;x-internal:=true,
  es.axios.udig.ui.commons.mediator;
   uses:="net.refractions.udig.project.ui.render.displayAdapter,

@@ -5,6 +5,7 @@ Bundle-SymbolicName: es.axios.so.extension.spike;singleton:=true
 Bundle-Version: 1.2.0.m4
 Bundle-Activator: es.axios.so.extension.spike.Activator
 Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
  net.refractions.udig.project.ui,
  es.axios.udig.ui.spatialoperations,
  es.axios.udig.ui.commons

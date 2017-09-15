@@ -409,7 +409,7 @@ final class SplitFeaturesCommand extends AbstractCommand implements UndoableMapC
 
 		} finally {
 			if (featureToSplitIterator != null){
-				featuresToSplit.close(featureToSplitIterator);
+				featureToSplitIterator.close();
 			}
 		}
 	}

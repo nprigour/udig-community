@@ -373,7 +373,7 @@ public class FillTaskTest extends AbstractTaskTest {
 		}
 		finally {
 			if (it != null) {
-				fc.close(it);
+				it.close();
 			}
 		}
 	}

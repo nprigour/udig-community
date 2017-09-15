@@ -3,6 +3,10 @@
  */
 package es.axios.so.extension.spike;
 
+import com.vividsolutions.jts.geom.Geometry;
+import com.vividsolutions.jts.geom.MultiPolygon;
+import com.vividsolutions.jts.geom.Polygon;
+
 import es.axios.udig.spatialoperations.ui.parameters.SOCommandException;
 import es.axios.udig.spatialoperations.ui.parameters.SpatialOperationCommand;
 import es.axios.udig.ui.commons.message.InfoMessage;
@@ -62,7 +66,6 @@ public final class SO1Command extends SpatialOperationCommand {
 		return "so 1 tool tip";
 	}
 
-	@Override
 	protected Object[] getResultLayerGeometry() {
 		// TODO Auto-generated method stub
 		return null;
@@ -74,4 +77,21 @@ public final class SO1Command extends SpatialOperationCommand {
 		return null;
 	}
 
+	@Override
+	protected Object[] getValidTargetLayerGeometries() {
+
+		Object[] obj = new Object[] { 
+					Polygon.class, 
+					MultiPolygon.class, 
+					Geometry.class };
+
+		return obj;
+
+	}
+
+	@Override
+	protected boolean validateParameters() {
+		// TODO Auto-generated method stub
+		return true;
+	}
 }

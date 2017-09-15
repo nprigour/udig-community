@@ -309,13 +309,15 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 				Geometry firstGeom = (Geometry) featureInFirst.getDefaultGeometry();
 
 				boolean existRelation = false;
-
+				SimpleFeature joinFeature = null;
 				if (SpatialRelation.Disjoint.equals(this.spatialRelation)) {
 
 					existRelation = existDisjoint(firstGeom);
 				} else {
 
-					existRelation = existeRelation(this.spatialRelation, firstGeom);
+					joinFeature = existeRelation(this.spatialRelation, firstGeom);
+					
+					existRelation = (joinFeature != null) ? true : false;
 				}
 
 				if (existRelation) {
@@ -323,8 +325,11 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 
 						addToFeatureList(featureInFirst);
 					} else if (Mode.copy.equals(this.processMode)) {
-
-						insertIntoStore(this.targetStore, featureInFirst);
+						if (SpatialRelation.Disjoint.equals(this.spatialRelation)) {
+							insertIntoStore(this.targetStore, featureInFirst);
+						} else {
+							insertIntoStore(this.targetStore, featureInFirst, joinFeature);
+						}
 					}
 				}
 
@@ -400,7 +405,7 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 	 * @return True if exist relation, false in other case
 	 * @throws SpatialDataProcessException
 	 */
-	private boolean existeRelation(final SpatialRelation relation, final Geometry firstGeom)
+	private SimpleFeature existeRelation(final SpatialRelation relation, final Geometry firstGeom)
 		throws SpatialOperationException {
 
 		assert !relation.equals(SpatialRelation.Disjoint) : "illegal argument: disjoint is not handed by this method"; //$NON-NLS-1$
@@ -417,10 +422,10 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 				if (existGeometryRelation(relation, firstGeom, this.firstSourceCrs, referenceGeom,
 							this.secondSourceCrs, this.mapCrs)) {
 
-					return true;
+					return featureInSecond;
 				}
 			}
-			return false;
+			return null;
 
 		} catch (Exception e) {
 			throw makeException(e);
@@ -447,11 +452,32 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 									final SimpleFeature featureInFirst) throws SpatialOperationException {
 
 		// creates the new features
-		SimpleFeature newSecond = createFeatureUsing(featureInFirst, this.firstSourceCrs, this.targetCrs);
+		SimpleFeature newSecond = createFeatureUsing(featureInFirst, null, this.firstSourceCrs, this.targetCrs);
 
 		insert(target, newSecond);
 	}
 
+	/**
+	 * Inserts a new feature using the geometry presents in the second feature.
+	 * This method do not copies alphanumeric data to the target layer. TODO a
+	 * mapping to specify what alphanumeric data, this process, must copy.
+	 * 
+	 * @param target
+	 * @param featureInFirst
+	 * 
+	 * @throws SpatialDataProcessException
+	 *             if adds features fail
+	 * @throws SpatialOperationException
+	 */
+	private void insertIntoStore(	final FeatureStore<SimpleFeatureType, SimpleFeature> target,
+									final SimpleFeature featureInFirst, final SimpleFeature joinFeature) throws SpatialOperationException {
+
+		// creates the new features
+		SimpleFeature newSecond = createFeatureUsing(featureInFirst, joinFeature, this.firstSourceCrs, this.targetCrs);
+
+		insert(target, newSecond);
+	}
+	
 	/**
 	 * Creates the new feature projecting the featue's geometry on target.
 	 * 
@@ -463,6 +489,7 @@ final class SpatialJoinTask extends AbstractSpatialOperationTask<Object> impleme
 	 * @throws SpatialDataProcessException
 	 */
 	private SimpleFeature createFeatureUsing(	final SimpleFeature feature,
+												final SimpleFeature joinFeature,
 												final CoordinateReferenceSystem sourceCrs,
 												final CoordinateReferenceSystem targetCrs)
 		throws SpatialOperationException {

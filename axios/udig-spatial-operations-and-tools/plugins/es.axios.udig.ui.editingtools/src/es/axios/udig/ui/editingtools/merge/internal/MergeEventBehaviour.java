@@ -292,7 +292,7 @@ public class MergeEventBehaviour implements EventBehaviour {
 			}
 		} finally {
 			if (iter != null) {
-				features.close(iter);
+				iter.close();
 			}
 		}
 

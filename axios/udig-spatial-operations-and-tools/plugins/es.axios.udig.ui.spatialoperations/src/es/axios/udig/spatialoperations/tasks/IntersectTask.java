@@ -152,7 +152,7 @@ final class IntersectTask extends AbstractSpatialOperationTask<FeatureStore<Simp
 		} finally {
 
 			if (iter != null) {
-				featuresInFirstLayer.close(iter);
+				iter.close();
 			}
 		}
 	}
@@ -236,7 +236,7 @@ final class IntersectTask extends AbstractSpatialOperationTask<FeatureStore<Simp
 			makeException(e, emsg);
 		} finally {
 			if (iter != null) {
-				featuresInSecondLayer.close(iter);
+				iter.close();
 			}
 		}
 	}
