@@ -23,24 +23,24 @@ package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 import java.io.IOException;
 import java.util.List;
 
-import net.refractions.udig.mapgraphic.grid.GridMapGraphic;
-import net.refractions.udig.mapgraphic.grid.GridStyle;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.Interaction;
-import net.refractions.udig.project.render.IViewportModel;
-import net.refractions.udig.project.ui.AnimationUpdater;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.EditPlugin;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.animation.SearchBoxAnimation;
-import net.refractions.udig.tools.edit.support.ClosestEdge;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.IsBusyStateProvider;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
-import net.refractions.udig.ui.ProgressManager;
+import org.locationtech.udig.mapgraphic.grid.GridMapGraphic;
+import org.locationtech.udig.mapgraphic.grid.GridStyle;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.Interaction;
+import org.locationtech.udig.project.render.IViewportModel;
+import org.locationtech.udig.project.ui.AnimationUpdater;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.EditPlugin;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.animation.SearchBoxAnimation;
+import org.locationtech.udig.tools.edit.support.ClosestEdge;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.IsBusyStateProvider;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.ui.ProgressManager;
 
 import org.geotools.data.FeatureSource;
 import org.geotools.feature.FeatureCollection;
@@ -470,7 +470,7 @@ public class SnapSegmentFinder {
 	 * center point.
 	 * <p>
 	 * Adapted from the original
-	 * {@link net.refractions.udig.tools.edit.support.EditUtils.MinFinder} by
+	 * {@link org.locationtech.udig.tools.edit.support.EditUtils.MinFinder} by
 	 * Jesse
 	 * </p>
 	 */

@@ -20,13 +20,13 @@
  */
 package es.axios.udig.ui.editingtools.precisiontools.commons.internal.behaviour;
 
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
 
 /**
  * Always draw the snap area. Collaboration

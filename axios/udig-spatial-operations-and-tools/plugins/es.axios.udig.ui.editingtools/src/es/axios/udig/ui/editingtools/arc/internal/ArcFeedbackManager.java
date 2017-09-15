@@ -23,17 +23,17 @@ package es.axios.udig.ui.editingtools.arc.internal;
 import java.awt.Shape;
 import java.awt.geom.Line2D;
 
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.commands.DrawCommandFactory;
-import net.refractions.udig.project.ui.internal.commands.draw.DrawShapeCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.project.ui.render.displayAdapter.ViewportPane;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.commands.DrawCommandFactory;
+import org.locationtech.udig.project.ui.internal.commands.draw.DrawShapeCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.render.displayAdapter.ViewportPane;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 import es.axios.udig.ui.editingtools.internal.commons.behaviour.EditToolFeedbackManager;
 
 /**

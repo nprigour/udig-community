@@ -26,17 +26,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.command.MapCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.internal.commands.selection.BBoxSelectionCommand;
-import net.refractions.udig.project.ui.commands.SelectionBoxCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.EventType;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.command.MapCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.internal.commands.selection.BBoxSelectionCommand;
+import org.locationtech.udig.project.ui.commands.SelectionBoxCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.EventType;
 
 import org.geotools.data.DefaultQuery;
 import org.geotools.data.FeatureSource;

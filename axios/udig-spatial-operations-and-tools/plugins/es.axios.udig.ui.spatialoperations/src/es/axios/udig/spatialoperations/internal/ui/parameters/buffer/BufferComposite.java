@@ -20,7 +20,7 @@
  */
 package es.axios.udig.spatialoperations.internal.ui.parameters.buffer;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;

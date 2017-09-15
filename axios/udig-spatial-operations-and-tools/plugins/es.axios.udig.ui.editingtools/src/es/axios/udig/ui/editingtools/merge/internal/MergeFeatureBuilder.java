@@ -22,7 +22,7 @@ import java.util.Set;
 
 import javax.swing.event.EventListenerList;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.geotools.factory.CommonFactoryFinder;
 import org.geotools.feature.FeatureCollection;

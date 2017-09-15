@@ -24,14 +24,14 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.logging.Logger;
 
-import net.refractions.udig.catalog.ICatalog;
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.command.MapCommand;
-import net.refractions.udig.project.internal.Map;
-import net.refractions.udig.project.ui.ApplicationGIS;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.catalog.ICatalog;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.command.MapCommand;
+import org.locationtech.udig.project.internal.Map;
+import org.locationtech.udig.project.ui.ApplicationGIS;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.NullProgressMonitor;
@@ -230,7 +230,7 @@ abstract class AbstractMonitor implements ISOTaskMonitor {
 		targetStore = resource.resolve(SimpleFeatureStore.class, new NullProgressMonitor());
 
 		IMap map = ApplicationGIS.getActiveMap();
-		Transaction transaction = ((net.refractions.udig.project.internal.Map) map).getEditManagerInternal()
+		Transaction transaction = ((org.locationtech.udig.project.internal.Map) map).getEditManagerInternal()
 					.getTransaction();
 
 		SimpleFeatureStore store = new SOFeatureStore(targetStore, transaction);

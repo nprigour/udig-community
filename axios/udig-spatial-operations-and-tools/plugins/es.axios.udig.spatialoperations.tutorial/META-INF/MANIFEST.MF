@@ -7,7 +7,7 @@ Bundle-Activator: es.axios.udig.spatialoperations.tutorial.Activator
 Require-Bundle: org.eclipse.core.runtime,
  es.axios.udig.ui.spatialoperations,
  es.axios.udig.ui.commons,
- net.refractions.udig.project.ui,
+ org.locationtech.udig.project.ui,
  org.eclipse.emf.edit.ui
 Eclipse-LazyStart: true
 Export-Package: es.axios.udig.spatialoperations.tutorial,

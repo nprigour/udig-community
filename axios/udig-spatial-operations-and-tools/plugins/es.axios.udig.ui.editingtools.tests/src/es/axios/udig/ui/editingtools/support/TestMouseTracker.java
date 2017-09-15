@@ -16,11 +16,11 @@ package es.axios.udig.ui.editingtools.support;
 
 import java.util.Queue;
 
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.MouseTracker;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.MouseTracker;
+import org.locationtech.udig.tools.edit.support.Point;
 
 public class TestMouseTracker extends MouseTracker{
     public TestMouseTracker( EditToolHandler handler2 ) {

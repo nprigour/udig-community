@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Observable;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.opengis.feature.type.FeatureType;
 import org.opengis.feature.type.GeometryDescriptor;

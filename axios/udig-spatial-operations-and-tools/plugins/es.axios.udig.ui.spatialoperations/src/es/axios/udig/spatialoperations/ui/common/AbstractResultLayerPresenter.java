@@ -28,7 +28,7 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.regex.Pattern;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.resource.ImageRegistry;

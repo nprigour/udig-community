@@ -24,8 +24,8 @@ import java.util.Observable;
 
 import javax.measure.unit.Unit;
 
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
 
 import com.vividsolutions.jts.geom.Coordinate;
 

@@ -12,9 +12,9 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.text.MessageFormat;
 
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.NullProgressMonitor;
@@ -304,7 +304,7 @@ public final class CentroidCommand extends SpatialOperationCommand  {
 				throw new SOCommandException(e.getMessage());
 			}
 		}
-		Transaction transaction = ((net.refractions.udig.project.internal.Map) this.map).getEditManagerInternal()
+		Transaction transaction = ((org.locationtech.udig.project.internal.Map) this.map).getEditManagerInternal()
 					.getTransaction();
 
 		SOFeatureStore soStore = new SOFeatureStore( targetStore, transaction);
@@ -359,7 +359,7 @@ public final class CentroidCommand extends SpatialOperationCommand  {
 		try {
 			SimpleFeatureStore store = (SimpleFeatureStore) resource.resolve(FeatureStore.class, new NullProgressMonitor());
 
-			Transaction transaction = ((net.refractions.udig.project.internal.Map) this.map)
+			Transaction transaction = ((org.locationtech.udig.project.internal.Map) this.map)
 					.getEditManagerInternal().getTransaction();
 			
 			SOFeatureStore soStore = new SOFeatureStore(store, transaction);

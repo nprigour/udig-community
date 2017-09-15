@@ -26,9 +26,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.geotools.data.FeatureStore;

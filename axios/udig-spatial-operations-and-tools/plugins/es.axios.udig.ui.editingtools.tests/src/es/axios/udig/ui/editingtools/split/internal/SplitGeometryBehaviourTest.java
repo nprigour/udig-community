@@ -21,9 +21,9 @@
 package es.axios.udig.ui.editingtools.split.internal;
 
 import junit.framework.TestCase;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 import es.axios.udig.ui.editingtools.internal.commands.MockEdittingToolsCommandFactory;
 import es.axios.udig.ui.editingtools.internal.commands.MockEdittingToolsCommandFactory.MockSplitCommand;
 import es.axios.udig.ui.editingtools.support.TestHandler;
@@ -55,7 +55,7 @@ public class SplitGeometryBehaviourTest extends TestCase {
     }
 
     /**
-     * Tests {@link SplitGeometryBehaviour#isValid(net.refractions.udig.tools.edit.EditToolHandler)}
+     * Tests {@link SplitGeometryBehaviour#isValid(org.locationtech.udig.tools.edit.EditToolHandler)}
      */
     public void testIsValid() {
         EditBlackboard bb = handler.getEditBlackboard();

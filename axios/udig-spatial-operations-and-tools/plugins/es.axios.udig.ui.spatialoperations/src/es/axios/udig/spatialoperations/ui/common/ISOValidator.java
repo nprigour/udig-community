@@ -20,7 +20,7 @@
  */
 package es.axios.udig.spatialoperations.ui.common;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 import es.axios.udig.ui.commons.message.InfoMessage;
 
 /**

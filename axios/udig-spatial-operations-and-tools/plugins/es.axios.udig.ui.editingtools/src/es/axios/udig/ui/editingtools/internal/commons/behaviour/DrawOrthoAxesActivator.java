@@ -24,12 +24,12 @@ import java.awt.Color;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 
-import net.refractions.udig.project.ui.commands.AbstractDrawCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseMotionListener;
-import net.refractions.udig.project.ui.render.displayAdapter.ViewportPane;
-import net.refractions.udig.tools.edit.Activator;
-import net.refractions.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.project.ui.commands.AbstractDrawCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseMotionListener;
+import org.locationtech.udig.project.ui.render.displayAdapter.ViewportPane;
+import org.locationtech.udig.tools.edit.Activator;
+import org.locationtech.udig.tools.edit.EditToolHandler;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 

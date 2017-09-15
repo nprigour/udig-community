@@ -1,7 +1,7 @@
 package es.axios.so.extension.copy;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CCombo;
@@ -15,7 +15,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.swt.widgets.TabFolder;
 import org.eclipse.swt.widgets.TabItem;
-import org.geotools.filter.Filter;
+import org.opengis.filter.Filter;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 
 import com.vividsolutions.jts.geom.Geometry;

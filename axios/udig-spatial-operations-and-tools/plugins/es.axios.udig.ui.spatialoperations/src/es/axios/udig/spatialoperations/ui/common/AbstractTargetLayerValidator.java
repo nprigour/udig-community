@@ -20,7 +20,7 @@
  */
 package es.axios.udig.spatialoperations.ui.common;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import com.vividsolutions.jts.geom.Geometry;
 
@@ -136,7 +136,7 @@ public abstract class AbstractTargetLayerValidator implements ISOTargetLayerVali
 	 * 
 	 * @seees.axios.udig.spatialoperations.internal.ui.processconnectors.
 	 * ISOTargetLayerValidator
-	 * #isTargetGeometryCompatible(net.refractions.udig.project.ILayer)
+	 * #isTargetGeometryCompatible(org.locationtech.udig.project.ILayer)
 	 */
 	public abstract boolean validGeometryCompatible(ILayer sourceLayer2);
 

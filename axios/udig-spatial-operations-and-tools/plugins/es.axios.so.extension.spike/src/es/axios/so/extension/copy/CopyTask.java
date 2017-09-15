@@ -6,35 +6,35 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import net.refractions.udig.catalog.ICatalog;
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.catalog.ICatalog;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.geotools.data.DataUtilities;
 import org.geotools.data.FeatureStore;
 import org.geotools.data.Transaction;
-import org.geotools.feature.Feature;
 import org.geotools.feature.FeatureCollection;
 import org.geotools.feature.FeatureIterator;
-import org.geotools.feature.FeatureType;
 import org.geotools.feature.GeometryAttributeType;
 import org.geotools.feature.IllegalAttributeException;
 import org.geotools.feature.SchemaException;
-import org.geotools.filter.Filter;
+import org.opengis.feature.Feature;
+import org.opengis.feature.type.FeatureType;
+import org.opengis.filter.Filter;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 import org.opengis.referencing.operation.OperationNotFoundException;
 import org.opengis.referencing.operation.TransformException;
 
 import com.vividsolutions.jts.geom.Geometry;
 
+import es.axios.geotools.util.FeatureUtil;
+import es.axios.geotools.util.GeoToolsUtils;
+import es.axios.lib.geometry.util.GeometryUtil;
 import es.axios.udig.spatialoperations.tasks.SpatialOperationException;
 import es.axios.udig.spatialoperations.ui.taskmanager.SOFeatureStore;
 import es.axios.udig.ui.commons.mediator.AppGISMediator;
-import es.axios.udig.ui.commons.util.FeatureUtil;
-import es.axios.udig.ui.commons.util.GeoToolsUtils;
-import es.axios.udig.ui.commons.util.GeometryUtil;
 import es.axios.udig.ui.commons.util.LayerUtil;
 
 public class CopyTask {

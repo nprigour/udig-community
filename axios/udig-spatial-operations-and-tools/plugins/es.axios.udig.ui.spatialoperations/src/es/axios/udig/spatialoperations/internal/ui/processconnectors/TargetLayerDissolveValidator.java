@@ -17,7 +17,7 @@ package es.axios.udig.spatialoperations.internal.ui.processconnectors;
 import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.feature.type.GeometryDescriptor;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.LineString;

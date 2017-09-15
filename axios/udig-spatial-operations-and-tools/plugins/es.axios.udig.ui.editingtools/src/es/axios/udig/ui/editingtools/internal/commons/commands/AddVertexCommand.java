@@ -14,32 +14,32 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.commands;
 
-import net.refractions.udig.core.IBlockingProvider;
-import net.refractions.udig.project.command.AbstractCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.AnimationUpdater;
-import net.refractions.udig.project.ui.IAnimation;
-import net.refractions.udig.tool.edit.internal.Messages;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.animation.AddVertexAnimation;
-import net.refractions.udig.tools.edit.animation.DeleteVertexAnimation;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.EditUtils;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.core.IBlockingProvider;
+import org.locationtech.udig.project.command.AbstractCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.AnimationUpdater;
+import org.locationtech.udig.project.ui.IAnimation;
+import org.locationtech.udig.tool.edit.internal.Messages;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.animation.AddVertexAnimation;
+import org.locationtech.udig.tools.edit.animation.DeleteVertexAnimation;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.EditUtils;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 
 import com.vividsolutions.jts.geom.Coordinate;
 
 /**
- * Command for adding a vertext to a {@link net.refractions.udig.tools.edit.support.EditGeom}
+ * Command for adding a vertext to a {@link org.locationtech.udig.tools.edit.support.EditGeom}
  * <p>
- * As a difference with {@link net.refractions.udig.tools.edit.commands.AddVertexCommand}, this one
+ * As a difference with {@link org.locationtech.udig.tools.edit.commands.AddVertexCommand}, this one
  * does not implements any extra logic than just adding the provided point to the current edit shape
  * </p>
  * <p>
- * Note: This is a plain copy of {@link net.refractions.udig.tools.edit.commands.AddVertexCommand}
+ * Note: This is a plain copy of {@link org.locationtech.udig.tools.edit.commands.AddVertexCommand}
  * without the performSnapCalculation method, and is meant to replace that class when we integrate
  * with uDig's too.edit plugin.
  * </p>

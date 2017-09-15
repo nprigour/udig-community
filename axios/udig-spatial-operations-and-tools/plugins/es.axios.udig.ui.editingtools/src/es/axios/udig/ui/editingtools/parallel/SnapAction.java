@@ -22,8 +22,8 @@ package es.axios.udig.ui.editingtools.parallel;
 
 import java.util.List;
 
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
 import es.axios.udig.ui.editingtools.internal.commons.behaviour.SnapToVertexEditPointProvider;
 
 /**

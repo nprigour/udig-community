@@ -23,7 +23,7 @@ package es.axios.udig.spatialoperations.internal.ui.processconnectors;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.feature.type.GeometryDescriptor;

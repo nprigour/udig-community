@@ -20,8 +20,8 @@
  */
 package es.axios.udig.spatialoperations.ui.op;
 
-import net.refractions.udig.project.ui.ApplicationGIS;
-import net.refractions.udig.ui.operations.IOp;
+import org.locationtech.udig.project.ui.ApplicationGIS;
+import org.locationtech.udig.ui.operations.IOp;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.swt.widgets.Display;

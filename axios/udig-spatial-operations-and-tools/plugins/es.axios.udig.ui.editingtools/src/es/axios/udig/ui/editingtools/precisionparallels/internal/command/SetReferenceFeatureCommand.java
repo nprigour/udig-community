@@ -41,16 +41,16 @@ import es.axios.udig.ui.editingtools.precisiontools.commons.internal.FeatureHigh
 import es.axios.udig.ui.editingtools.precisiontools.commons.internal.PrecisionToolsMode;
 import es.axios.udig.ui.editingtools.precisiontools.commons.internal.PrecisionToolsUtil;
 
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.command.AbstractCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.AnimationUpdater;
-import net.refractions.udig.project.ui.commands.IDrawCommand;
-import net.refractions.udig.project.ui.internal.commands.draw.DrawFeatureCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.command.AbstractCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.AnimationUpdater;
+import org.locationtech.udig.project.ui.commands.IDrawCommand;
+import org.locationtech.udig.project.ui.internal.commands.draw.DrawFeatureCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.Point;
 
 /**
  * <p>

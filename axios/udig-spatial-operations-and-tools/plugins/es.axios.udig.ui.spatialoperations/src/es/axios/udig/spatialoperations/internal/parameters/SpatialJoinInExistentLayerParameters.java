@@ -41,7 +41,7 @@ package es.axios.udig.spatialoperations.internal.parameters;
  * Lesser General Public License for more details.
  */
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.opengis.filter.Filter;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;

@@ -20,18 +20,18 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseMotionListener;
-import net.refractions.udig.project.ui.render.displayAdapter.ViewportPane;
-import net.refractions.udig.tools.edit.Activator;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.activator.DrawGeomsActivator;
-import net.refractions.udig.tools.edit.commands.DrawEditGeomsCommand;
-import net.refractions.udig.tools.edit.commands.StyleStrategy;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseMotionListener;
+import org.locationtech.udig.project.ui.render.displayAdapter.ViewportPane;
+import org.locationtech.udig.tools.edit.Activator;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.activator.DrawGeomsActivator;
+import org.locationtech.udig.tools.edit.commands.DrawEditGeomsCommand;
+import org.locationtech.udig.tools.edit.commands.StyleStrategy;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 /**
  * {@link Activator} that draws the currently being edited shape with the end line (the one from the

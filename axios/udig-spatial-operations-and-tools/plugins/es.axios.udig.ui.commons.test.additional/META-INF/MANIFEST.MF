@@ -6,7 +6,7 @@ Bundle-Version: 1.3.0.qualifier
 Export-Package: es.axios.lib.geometry.split;uses:="com.vividsolutions.jts.geom"
 Bundle-Vendor: Axios.es
 Require-Bundle: es.axios.udig.ui.commons.test;bundle-version="1.3.0",
- net.refractions.udig.libs,
+ org.locationtech.udig.libs,
  es.axios.udig.ui.commons
 Import-Package: com.vividsolutions.jts.geom,
  org.junit,

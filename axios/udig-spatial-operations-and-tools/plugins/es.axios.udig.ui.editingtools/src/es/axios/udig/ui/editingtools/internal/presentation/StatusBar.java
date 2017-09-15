@@ -20,7 +20,7 @@
  */
 package es.axios.udig.ui.editingtools.internal.presentation;
 
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.jface.action.IStatusLineManager;
 

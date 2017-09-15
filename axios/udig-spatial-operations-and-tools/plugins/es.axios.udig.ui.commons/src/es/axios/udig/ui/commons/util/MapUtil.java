@@ -23,10 +23,10 @@ package es.axios.udig.ui.commons.util;
 import java.util.Collections;
 import java.util.List;
 
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.render.IViewportModel;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.render.IViewportModel;
 
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 

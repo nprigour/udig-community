@@ -23,16 +23,16 @@ package es.axios.udig.ui.editingtools.internal.commands;
 import java.awt.Point;
 
 import junit.framework.TestCase;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.command.MapCommand;
-import net.refractions.udig.project.command.NavCommand;
-import net.refractions.udig.project.command.factory.BasicCommandFactory;
-import net.refractions.udig.project.command.factory.NavigationCommandFactory;
-import net.refractions.udig.project.internal.Layer;
-import net.refractions.udig.project.render.IViewportModel;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.command.MapCommand;
+import org.locationtech.udig.project.command.NavCommand;
+import org.locationtech.udig.project.command.factory.BasicCommandFactory;
+import org.locationtech.udig.project.command.factory.NavigationCommandFactory;
+import org.locationtech.udig.project.internal.Layer;
+import org.locationtech.udig.project.render.IViewportModel;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 import org.geotools.referencing.CRS;
 import org.geotools.referencing.crs.DefaultGeographicCRS;

@@ -1,6 +1,6 @@
 package es.axios.udig.spatialoperations.internal.parameters;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.opengis.filter.Filter;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;

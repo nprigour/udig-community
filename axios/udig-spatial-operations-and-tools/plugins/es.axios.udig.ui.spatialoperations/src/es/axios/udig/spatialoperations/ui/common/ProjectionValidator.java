@@ -23,7 +23,7 @@ package es.axios.udig.spatialoperations.ui.common;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.geotools.referencing.crs.DefaultEngineeringCRS;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;

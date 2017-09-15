@@ -22,7 +22,7 @@ package es.axios.udig.spatialoperations.ui.parameters;
 
 import java.util.LinkedList;
 
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.swt.widgets.Composite;
 

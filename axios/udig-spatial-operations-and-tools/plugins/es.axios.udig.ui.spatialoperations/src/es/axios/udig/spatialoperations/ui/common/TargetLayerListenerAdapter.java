@@ -3,7 +3,7 @@
  */
 package es.axios.udig.spatialoperations.ui.common;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import com.vividsolutions.jts.geom.Geometry;
 
@@ -23,7 +23,7 @@ public abstract class TargetLayerListenerAdapter implements TargetLayerListener 
 	}
 
 	/* (non-Javadoc)
-	 * @see es.axios.udig.spatialoperations.ui.common.TargetLayerListener#targetLayerSelected(net.refractions.udig.project.ILayer)
+	 * @see es.axios.udig.spatialoperations.ui.common.TargetLayerListener#targetLayerSelected(org.locationtech.udig.project.ILayer)
 	 */
 	public void targetLayerSelected(ILayer selectedLayer) {
 		// null implementation

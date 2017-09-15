@@ -24,11 +24,11 @@ import java.awt.Rectangle;
 import java.util.LinkedList;
 import java.util.List;
 
-import net.refractions.udig.project.ui.commands.AbstractDrawCommand;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.commands.StyleStrategy;
-import net.refractions.udig.tools.edit.support.CurrentEditGeomPathIterator;
-import net.refractions.udig.tools.edit.support.EditGeom;
+import org.locationtech.udig.project.ui.commands.AbstractDrawCommand;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.commands.StyleStrategy;
+import org.locationtech.udig.tools.edit.support.CurrentEditGeomPathIterator;
+import org.locationtech.udig.tools.edit.support.EditGeom;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.swt.graphics.Path;

@@ -20,14 +20,14 @@
  */
 package es.axios.udig.ui.editingtools.precisiontools.commons.internal.command;
 
-import net.refractions.udig.project.command.UndoableComposite;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditPlugin;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.commands.SelectFeatureAsEditFeatureCommand;
-import net.refractions.udig.tools.edit.commands.SelectionParameter;
-import net.refractions.udig.tools.edit.commands.SelectionStrategy;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.command.UndoableComposite;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditPlugin;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.commands.SelectFeatureAsEditFeatureCommand;
+import org.locationtech.udig.tools.edit.commands.SelectionParameter;
+import org.locationtech.udig.tools.edit.commands.SelectionStrategy;
+import org.locationtech.udig.tools.edit.support.Point;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.opengis.feature.simple.SimpleFeature;
@@ -36,7 +36,7 @@ import com.vividsolutions.jts.geom.Geometry;
 
 /**
  * Strategy object used to select a feature from the blackboard. Copy of
- * net.refractions.udig.tools.edit.commands.selection.SelectFeatureStrategy but
+ * org.locationtech.udig.tools.edit.commands.selection.SelectFeatureStrategy but
  * only with the necessary code for this case.
  * 
  * @author Aritz Davila (www.axios.es)

@@ -6,7 +6,7 @@ Bundle-Version: 1.3.3.qualifier
 Bundle-Vendor: Axios.es
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.core.runtime,
- net.refractions.udig.project.ui;bundle-version="1.2.0"
+ org.locationtech.udig.project.ui;bundle-version="1.2.0"
 Export-Package: 
  es.axios.geotools.util;
   uses:="org.geotools.feature.simple,
@@ -25,18 +25,18 @@ Export-Package:
  es.axios.udig.ui.commons,
  es.axios.udig.ui.commons.internal.i18n;x-internal:=true,
  es.axios.udig.ui.commons.mediator;
-  uses:="net.refractions.udig.project.ui.render.displayAdapter,
+  uses:="org.locationtech.udig.project.ui.render.displayAdapter,
    org.opengis.feature.simple,
-   net.refractions.udig.project.command.factory,
+   org.locationtech.udig.project.command.factory,
    org.eclipse.jface.operation,
    org.eclipse.core.runtime,
-   net.refractions.udig.project,
-   net.refractions.udig.catalog",
+   org.locationtech.udig.project,
+   org.locationtech.udig.catalog",
  es.axios.udig.ui.commons.message;uses:="org.eclipse.swt.graphics",
  es.axios.udig.ui.commons.util;
   uses:="org.eclipse.jface.operation,
-   net.refractions.udig.project,
-   net.refractions.udig.catalog,
+   org.locationtech.udig.project,
+   org.locationtech.udig.catalog,
    org.geotools.feature,
    com.vividsolutions.jts.geom,
    org.opengis.filter,

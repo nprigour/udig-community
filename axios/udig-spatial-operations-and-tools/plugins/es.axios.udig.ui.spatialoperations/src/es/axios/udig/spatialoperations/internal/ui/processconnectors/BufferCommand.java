@@ -26,8 +26,8 @@ import java.util.logging.Logger;
 import javax.measure.converter.ConversionException;
 import javax.measure.unit.Unit;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.swt.widgets.Button;
 import org.geotools.feature.SchemaException;

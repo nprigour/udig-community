@@ -20,12 +20,12 @@
  */
 package es.axios.udig.ui.editingtools.internal.commands;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.command.Command;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.internal.Map;
-import net.refractions.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.command.Command;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.internal.Map;
+import org.locationtech.udig.tools.edit.EditToolHandler;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.geotools.feature.FeatureCollection;

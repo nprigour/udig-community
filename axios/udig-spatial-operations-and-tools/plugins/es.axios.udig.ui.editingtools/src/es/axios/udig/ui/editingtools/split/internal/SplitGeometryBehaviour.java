@@ -14,15 +14,15 @@
  */
 package es.axios.udig.ui.editingtools.split.internal;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.command.UndoableComposite;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.tools.edit.Behaviour;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.commands.SetEditStateCommand;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.command.UndoableComposite;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.tools.edit.Behaviour;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.commands.SetEditStateCommand;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 import es.axios.udig.ui.commons.util.DialogUtil;
 import es.axios.udig.ui.editingtools.internal.i18n.Messages;
 

@@ -22,7 +22,7 @@ package es.axios.udig.ui.editingtools.merge.view;
 
 import java.text.MessageFormat;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IMenuListener;

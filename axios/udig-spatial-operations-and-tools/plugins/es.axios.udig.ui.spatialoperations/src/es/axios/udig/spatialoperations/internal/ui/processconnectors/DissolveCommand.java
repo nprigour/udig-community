@@ -25,9 +25,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-import net.refractions.udig.catalog.ICatalog;
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.catalog.ICatalog;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.geotools.data.DataStore;

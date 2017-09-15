@@ -14,9 +14,9 @@
  */
 package es.axios.udig.ui.editingtools.split.internal;
 
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.behaviour.AddVertexWhileCreatingBehaviour;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.behaviour.AddVertexWhileCreatingBehaviour;
+import org.locationtech.udig.tools.edit.support.Point;
 
 /**
  * Inherit in order to redefines the {{@link #isNotDuplicated(EditToolHandler, Point)} 

@@ -1,6 +1,6 @@
 package es.axios.udig.spatialoperations.internal.ui.dialogs;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 /**
  * Allows to define if a given ILayer has to be shown on the layers list.

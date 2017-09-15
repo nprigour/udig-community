@@ -25,9 +25,9 @@ import java.util.List;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 
-import net.refractions.udig.project.ui.IAnimation;
-import net.refractions.udig.project.ui.commands.AbstractDrawCommand;
-import net.refractions.udig.project.ui.commands.IDrawCommand;
+import org.locationtech.udig.project.ui.IAnimation;
+import org.locationtech.udig.project.ui.commands.AbstractDrawCommand;
+import org.locationtech.udig.project.ui.commands.IDrawCommand;
 
 /**
  * <p>

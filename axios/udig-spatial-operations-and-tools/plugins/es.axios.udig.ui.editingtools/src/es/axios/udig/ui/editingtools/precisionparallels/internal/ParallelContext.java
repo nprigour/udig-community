@@ -26,9 +26,9 @@ import java.util.List;
 
 import org.opengis.feature.simple.SimpleFeature;
 
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.EditGeom;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.EditGeom;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
 
 import com.vividsolutions.jts.algorithm.CGAlgorithms;
 import com.vividsolutions.jts.geom.Coordinate;

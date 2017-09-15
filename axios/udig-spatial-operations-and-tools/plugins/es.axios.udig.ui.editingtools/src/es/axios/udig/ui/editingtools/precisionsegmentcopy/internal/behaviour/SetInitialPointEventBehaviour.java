@@ -20,15 +20,15 @@
  */
 package es.axios.udig.ui.editingtools.precisionsegmentcopy.internal.behaviour;
 
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditPlugin;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditPlugin;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.Point;
 
 import com.vividsolutions.jts.geom.Coordinate;
 

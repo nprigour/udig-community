@@ -23,9 +23,9 @@ package es.axios.udig.ui.editingtools.precisionsegmentcopy.internal;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.ui.commands.SelectionBoxCommand;
-import net.refractions.udig.tools.edit.support.EditGeom;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.ui.commands.SelectionBoxCommand;
+import org.locationtech.udig.tools.edit.support.EditGeom;
+import org.locationtech.udig.tools.edit.support.Point;
 
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.LineSegment;

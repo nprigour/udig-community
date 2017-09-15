@@ -20,7 +20,7 @@
  */
 package es.axios.udig.spatialoperations.internal.ui.parameters.fill;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.resource.ImageRegistry;

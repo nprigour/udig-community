@@ -2,7 +2,7 @@ package es.axios.udig.spatialoperations.ui.common;
 
 import com.vividsolutions.jts.geom.Geometry;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 /**
  * 
  * Validates the target layer

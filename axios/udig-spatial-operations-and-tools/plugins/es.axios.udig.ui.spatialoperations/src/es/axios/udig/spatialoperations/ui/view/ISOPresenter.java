@@ -1,6 +1,6 @@
 package es.axios.udig.spatialoperations.ui.view;
 
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 import es.axios.udig.ui.commons.message.InfoMessage;
 
 /**

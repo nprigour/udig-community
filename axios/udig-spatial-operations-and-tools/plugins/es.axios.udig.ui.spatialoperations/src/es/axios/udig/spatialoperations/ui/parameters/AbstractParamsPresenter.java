@@ -22,13 +22,13 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Set;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.ILayerListener;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.IMapCompositionListener;
-import net.refractions.udig.project.LayerEvent;
-import net.refractions.udig.project.MapCompositionEvent;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.ILayerListener;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.IMapCompositionListener;
+import org.locationtech.udig.project.LayerEvent;
+import org.locationtech.udig.project.MapCompositionEvent;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.swt.custom.CCombo;
 import org.eclipse.swt.custom.CLabel;

@@ -17,7 +17,7 @@ package es.axios.udig.spatialoperations.ui.parameters;
 import java.util.Observable;
 import java.util.Observer;
 
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 import es.axios.udig.spatialoperations.ui.view.ISOPresenter;
 import es.axios.udig.ui.commons.message.InfoMessage;
 

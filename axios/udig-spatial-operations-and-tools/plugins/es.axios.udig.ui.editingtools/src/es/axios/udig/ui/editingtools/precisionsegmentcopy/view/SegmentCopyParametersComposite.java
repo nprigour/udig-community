@@ -23,10 +23,10 @@ package es.axios.udig.ui.editingtools.precisionsegmentcopy.view;
 import java.util.Observable;
 import java.util.Observer;
 
-import net.refractions.udig.project.EditManagerEvent;
-import net.refractions.udig.project.IEditManager;
-import net.refractions.udig.project.IEditManagerListener;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.EditManagerEvent;
+import org.locationtech.udig.project.IEditManager;
+import org.locationtech.udig.project.IEditManagerListener;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CLabel;

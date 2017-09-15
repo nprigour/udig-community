@@ -22,13 +22,13 @@ package es.axios.udig.ui.editingtools.merge.internal;
 
 import java.text.MessageFormat;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.ui.AnimationUpdater;
-import net.refractions.udig.project.ui.ApplicationGIS;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.animation.MessageBubble;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.ui.AnimationUpdater;
+import org.locationtech.udig.project.ui.ApplicationGIS;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.animation.MessageBubble;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
 
 import org.eclipse.ui.IViewPart;
 import org.eclipse.ui.IWorkbenchPage;

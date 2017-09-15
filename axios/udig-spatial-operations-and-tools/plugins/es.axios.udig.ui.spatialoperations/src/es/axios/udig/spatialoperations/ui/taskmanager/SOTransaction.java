@@ -23,7 +23,7 @@ package es.axios.udig.spatialoperations.ui.taskmanager;
 import java.io.IOException;
 import java.util.Set;
 
-import net.refractions.udig.project.internal.impl.UDIGTransaction;
+import org.locationtech.udig.project.internal.impl.UDIGTransaction;
 
 import org.geotools.data.Transaction;
 

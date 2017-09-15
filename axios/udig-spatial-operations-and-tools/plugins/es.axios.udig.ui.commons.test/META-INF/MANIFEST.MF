@@ -6,7 +6,7 @@ Bundle-Version: 1.3.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  es.axios.udig.ui.commons,
  org.junit,
- net.refractions.udig.libs
+ org.locationtech.udig.libs
 Export-Package: es.axios.geotools.util;uses:="org.opengis.feature.simple",
  es.axios.lib.geometry.split;uses:="com.vividsolutions.jts.geom",
  es.axios.lib.geometry.vertex

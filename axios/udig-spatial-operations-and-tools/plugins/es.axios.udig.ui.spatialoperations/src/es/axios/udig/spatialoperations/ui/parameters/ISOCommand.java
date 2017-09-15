@@ -24,7 +24,7 @@ package es.axios.udig.spatialoperations.ui.parameters;
 import java.util.List;
 import java.util.Observer;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import com.vividsolutions.jts.geom.Geometry;
 

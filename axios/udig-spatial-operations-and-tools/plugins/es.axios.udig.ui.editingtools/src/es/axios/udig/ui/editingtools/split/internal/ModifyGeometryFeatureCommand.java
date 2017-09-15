@@ -25,10 +25,10 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.internal.ProjectPlugin;
-import net.refractions.udig.project.internal.commands.edit.AbstractEditCommand;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.internal.ProjectPlugin;
+import org.locationtech.udig.project.internal.commands.edit.AbstractEditCommand;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.NullProgressMonitor;

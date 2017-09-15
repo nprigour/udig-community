@@ -23,21 +23,21 @@ package es.axios.udig.ui.editingtools.parallel;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.core.IProvider;
-import net.refractions.udig.project.BlackboardEvent;
-import net.refractions.udig.project.IBlackboard;
-import net.refractions.udig.project.IBlackboardListener;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.render.IViewportModel;
-import net.refractions.udig.project.render.IViewportModelListener;
-import net.refractions.udig.project.render.ViewportModelEvent;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.Activator;
-import net.refractions.udig.tools.edit.EditToolConfigurationHelper;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.activator.DrawCurrentGeomVerticesActivator;
-import net.refractions.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
+import org.locationtech.udig.core.IProvider;
+import org.locationtech.udig.project.BlackboardEvent;
+import org.locationtech.udig.project.IBlackboard;
+import org.locationtech.udig.project.IBlackboardListener;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.render.IViewportModel;
+import org.locationtech.udig.project.render.IViewportModelListener;
+import org.locationtech.udig.project.render.ViewportModelEvent;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.Activator;
+import org.locationtech.udig.tools.edit.EditToolConfigurationHelper;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.activator.DrawCurrentGeomVerticesActivator;
+import org.locationtech.udig.tools.edit.behaviour.DrawCreateVertexSnapAreaBehaviour;
 
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 

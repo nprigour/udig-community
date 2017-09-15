@@ -21,9 +21,9 @@ import java.util.Observer;
 import java.util.Set;
 import java.util.logging.Logger;
 
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.ui.render.displayAdapter.ViewportPane;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.ui.render.displayAdapter.ViewportPane;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.Platform;

@@ -17,14 +17,14 @@ package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.IBlackboard;
-import net.refractions.udig.project.command.UndoableComposite;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.internal.Blackboard;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.behaviour.AcceptOnDoubleClickBehaviour;
+import org.locationtech.udig.project.IBlackboard;
+import org.locationtech.udig.project.command.UndoableComposite;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.internal.Blackboard;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.behaviour.AcceptOnDoubleClickBehaviour;
 
 /**
  * Same as  {@link AcceptOnDoubleClickBehaviour} but uses the {@link IEditPointProvider} held in the

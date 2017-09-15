@@ -17,7 +17,7 @@
    </extension>
    <extension
          point="org.eclipse.ui.perspectiveExtensions">
-      <perspectiveExtension targetID="net.refractions.udig.ui.mapPerspective">
+      <perspectiveExtension targetID="org.locationtech.udig.ui.mapPerspective">
          <view
                id="es.axios.udig.spatialoperations.ui.view.SOView"
                relationship="stack"/>
@@ -32,15 +32,15 @@
       </toc>
    </extension>
    <extension
-         point="net.refractions.udig.ui.operation">
+         point="org.locationtech.udig.ui.operation">
       <operation
-            categoryId="net.refractions.udig.project.ui.operation.layerCategory"
+            categoryId="org.locationtech.udig.project.ui.operation.layerCategory"
             class="es.axios.udig.spatialoperations.ui.op.SOViewLauncher"
             icon="icons/etool16/spatial-operation.gif"
             id="es.axios.udig.ui.spatialoperations.op.SOViewLauncher"
             menuPath="layer/additions"
             name="%plugin.view_name"
-            targetClass="net.refractions.udig.project.ILayer">
+            targetClass="org.locationtech.udig.project.ILayer">
       </operation>
    </extension>
 

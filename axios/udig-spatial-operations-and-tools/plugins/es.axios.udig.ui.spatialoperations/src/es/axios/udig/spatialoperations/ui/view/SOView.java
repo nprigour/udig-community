@@ -17,8 +17,8 @@ package es.axios.udig.spatialoperations.ui.view;
 import java.util.Observable;
 import java.util.Observer;
 
-import net.refractions.udig.project.ui.IUDIGView;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.IUDIGView;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.jface.action.Action;

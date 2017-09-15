@@ -20,13 +20,13 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventBehaviour;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.behaviour.AcceptOnDoubleClickBehaviour;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventBehaviour;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.behaviour.AcceptOnDoubleClickBehaviour;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 /**
  * <p>

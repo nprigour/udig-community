@@ -26,13 +26,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.command.MapCommand;
-import net.refractions.udig.project.command.factory.SelectionCommandFactory;
-import net.refractions.udig.project.render.IViewportModel;
-import net.refractions.udig.ui.ProgressManager;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.command.MapCommand;
+import org.locationtech.udig.project.command.factory.SelectionCommandFactory;
+import org.locationtech.udig.project.render.IViewportModel;
+import org.locationtech.udig.ui.ProgressManager;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.geotools.data.DataStore;

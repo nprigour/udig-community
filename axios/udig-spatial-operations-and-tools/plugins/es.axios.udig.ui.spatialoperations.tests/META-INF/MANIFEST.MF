@@ -7,9 +7,9 @@ Bundle-Vendor: Axios Engineering
 Bundle-Localization: plugin
 Require-Bundle: es.axios.udig.ui.spatialoperations,
  org.junit,
- net.refractions.udig.catalog,
- net.refractions.udig.catalog.arcsde,
- net.refractions.udig.catalog.shp,
+ org.locationtech.udig.catalog,
+ org.locationtech.udig.catalog.arcsde,
+ org.locationtech.udig.catalog.shp,
  es.axios.udig.ui.commons,
  org.eclipse.core.runtime
 Export-Package: es.axios.udig.spatialoperations.process.internal;x-internal:=true,

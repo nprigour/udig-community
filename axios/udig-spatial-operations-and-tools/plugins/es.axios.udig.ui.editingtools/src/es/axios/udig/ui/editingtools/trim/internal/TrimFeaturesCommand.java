@@ -23,15 +23,15 @@ package es.axios.udig.ui.editingtools.trim.internal;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.command.AbstractCommand;
-import net.refractions.udig.project.command.UndoableComposite;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.command.factory.EditCommandFactory;
-import net.refractions.udig.project.ui.render.displayAdapter.ViewportPane;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.command.AbstractCommand;
+import org.locationtech.udig.project.command.UndoableComposite;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.command.factory.EditCommandFactory;
+import org.locationtech.udig.project.ui.render.displayAdapter.ViewportPane;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jface.dialogs.MessageDialog;

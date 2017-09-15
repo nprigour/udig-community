@@ -22,7 +22,7 @@ package es.axios.udig.ui.commons.mediator;
 
 import java.lang.reflect.InvocationTargetException;
 
-import net.refractions.udig.ui.PlatformGIS;
+import org.locationtech.udig.ui.PlatformGIS;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jface.operation.IRunnableWithProgress;

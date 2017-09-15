@@ -20,14 +20,14 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.EditUtils;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.EditUtils;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
 
 import com.vividsolutions.jts.geom.Coordinate;
 

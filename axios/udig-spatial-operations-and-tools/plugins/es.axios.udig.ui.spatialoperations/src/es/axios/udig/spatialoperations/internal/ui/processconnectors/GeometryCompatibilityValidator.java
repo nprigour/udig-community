@@ -23,7 +23,7 @@ package es.axios.udig.spatialoperations.internal.ui.processconnectors;
 import java.text.MessageFormat;
 import java.util.List;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.MultiLineString;

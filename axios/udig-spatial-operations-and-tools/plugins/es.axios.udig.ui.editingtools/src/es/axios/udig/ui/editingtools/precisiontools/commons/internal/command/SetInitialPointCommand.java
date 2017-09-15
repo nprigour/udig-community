@@ -20,8 +20,8 @@
  */
 package es.axios.udig.ui.editingtools.precisiontools.commons.internal.command;
 
-import net.refractions.udig.project.command.AbstractCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.command.AbstractCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 

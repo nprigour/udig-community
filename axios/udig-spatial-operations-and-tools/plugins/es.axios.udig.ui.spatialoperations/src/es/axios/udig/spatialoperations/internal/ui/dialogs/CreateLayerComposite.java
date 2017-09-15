@@ -14,8 +14,8 @@
  */
 package es.axios.udig.spatialoperations.internal.ui.dialogs;
 
-import net.refractions.udig.internal.ui.UiPlugin;
-import net.refractions.udig.ui.FeatureTypeEditor;
+import org.locationtech.udig.internal.ui.UiPlugin;
+import org.locationtech.udig.ui.FeatureTypeEditor;
 
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.resource.ImageRegistry;

@@ -29,10 +29,10 @@ import java.util.concurrent.Future;
 import javax.measure.converter.UnitConverter;
 import javax.measure.unit.Unit;
 
-import net.refractions.udig.catalog.IGeoResource;
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.render.IViewportModel;
+import org.locationtech.udig.catalog.IGeoResource;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.render.IViewportModel;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.geotools.data.FeatureStore;

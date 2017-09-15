@@ -20,7 +20,7 @@
  */
 package es.axios.udig.ui.editingtools.parallel;
 
-import net.refractions.udig.tools.edit.activator.DrawCurrentGeomVerticesActivator;
+import org.locationtech.udig.tools.edit.activator.DrawCurrentGeomVerticesActivator;
 import es.axios.udig.ui.editingtools.internal.commons.behaviour.DrawEditGeomWithCustomEndlineActivator;
 import es.axios.udig.ui.editingtools.internal.commons.behaviour.DrawOrthoAxesActivator;
 import es.axios.udig.ui.editingtools.internal.commons.behaviour.OrthoEditPointProvider;

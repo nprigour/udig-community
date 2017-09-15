@@ -24,8 +24,8 @@ import java.awt.Point;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.refractions.udig.project.ui.commands.SelectionBoxCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.project.ui.commands.SelectionBoxCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
 
 import org.opengis.feature.simple.SimpleFeature;
 

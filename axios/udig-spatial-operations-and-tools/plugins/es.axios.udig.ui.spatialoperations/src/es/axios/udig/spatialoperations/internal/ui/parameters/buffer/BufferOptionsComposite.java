@@ -22,8 +22,8 @@ import java.util.Map.Entry;
 
 import javax.measure.unit.Unit;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.IMap;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.IMap;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CCombo;

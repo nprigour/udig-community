@@ -2,9 +2,9 @@
 <?eclipse version="3.2"?>
 <plugin>
    <extension
-         point="net.refractions.udig.project.ui.tool">
+         point="org.locationtech.udig.project.ui.tool">
       <modalTool
-            categoryId="net.refractions.udig.tool.edit.feature"
+            categoryId="org.locationtech.udig.tool.edit.feature"
             class="es.axios.udig.ui.editingtools.trim.TrimTool"
             icon="icons/etool16/trim_feature_mode.gif"
             id="es.axios.udig.ui.editingtools.trim.TrimTool"
@@ -19,20 +19,20 @@
          <enablement>
             <and>
                <property
-                     propertyId="net.refractions.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
+                     propertyId="org.locationtech.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
                <or>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.LineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType"/>
+                        propertyId="org.locationtech.udig.project.ui.GeometryType"/>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.MultiLineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType"/>
+                        propertyId="org.locationtech.udig.project.ui.GeometryType"/>
                </or>
             </and>
          </enablement>
       </modalTool>
       <modalTool
-            categoryId="net.refractions.udig.tool.edit.feature"
+            categoryId="org.locationtech.udig.tool.edit.feature"
             class="es.axios.udig.ui.editingtools.split.SplitTool"
             icon="icons/etool16/split_feature_mode.gif"
             id="es.axios.udig.ui.editingtools.split.SplitTool"
@@ -47,34 +47,34 @@
          <enablement>
             <and>
                <property
-                     propertyId="net.refractions.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
+                     propertyId="org.locationtech.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
                <or>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.MultiLineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.LineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.MultiPolygon"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.Polygon"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.Geometry"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                </or>
             </and>
          </enablement>
       </modalTool>
       <modalTool
-            categoryId="net.refractions.udig.tool.edit.feature"
+            categoryId="org.locationtech.udig.tool.edit.feature"
             class="es.axios.udig.ui.editingtools.merge.MergeTool"
             icon="icons/etool16/merge_feature_mode.gif"
             id="es.axios.udig.ui.editingtools.merge.MergeTool"
@@ -88,11 +88,11 @@
                image="icons/pointers/merge_cursor.gif"/>
          <enablement>
             <property
-                  propertyId="net.refractions.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
+                  propertyId="org.locationtech.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
          </enablement>
       </modalTool>
       <modalTool
-            categoryId="net.refractions.udig.tool.edit.create"
+            categoryId="org.locationtech.udig.tool.edit.create"
             class="es.axios.udig.ui.editingtools.precisionparallels.PrecisionParallelTool"
             icon="icons/etool16/parallel_mode.gif"
             id="es.axios.udig.ui.editingtools.precisionparallels.PrecisionParallelTool"
@@ -107,22 +107,22 @@
          <enablement>
             <and>
                <property
-                     propertyId="net.refractions.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
+                     propertyId="org.locationtech.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
                <or>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.LineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.MultiLineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType">
+                        propertyId="org.locationtech.udig.project.ui.GeometryType">
                   </property>
                </or>
             </and>
          </enablement>
       </modalTool>
       <modalTool
-            categoryId="net.refractions.udig.tool.edit.create"
+            categoryId="org.locationtech.udig.tool.edit.create"
             class="es.axios.udig.ui.editingtools.arc.ArcTool"
             icon="icons/etool16/arc_tool.gif"
             id="es.axios.udig.ui.editingtools.arc.ArcTool"
@@ -137,14 +137,14 @@
          <enablement>
             <and>
                <property
-                     propertyId="net.refractions.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
+                     propertyId="org.locationtech.udig.project.FeatureStoreResourceProperty" expectedValue=""/>
                <or>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.LineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType"/>
+                        propertyId="org.locationtech.udig.project.ui.GeometryType"/>
                   <property
                         expectedValue="com.vividsolutions.jts.geom.MultiLineString"
-                        propertyId="net.refractions.udig.project.ui.GeometryType"/>
+                        propertyId="org.locationtech.udig.project.ui.GeometryType"/>
                </or>
             </and>
          </enablement>
@@ -154,7 +154,7 @@
          name="Plugin contributed behaviours for edit tools"
          point="org.eclipse.ui.actionSets">
       <actionSet
-            id="net.refractions.udig.tool.edit.behaviour"
+            id="org.locationtech.udig.tool.edit.behaviour"
             label="Extra edit tool behaviours"
             visible="true">
       </actionSet>

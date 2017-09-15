@@ -20,9 +20,9 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.tools.edit.Behaviour;
-import net.refractions.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.tools.edit.Behaviour;
+import org.locationtech.udig.tools.edit.EditToolHandler;
 
 /**
  * Edit tool feedback behaviour to be ran as an accept behaviour

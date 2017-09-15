@@ -16,8 +16,8 @@ package es.axios.udig.ui.editingtools.support;
 
 import java.awt.geom.AffineTransform;
 
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
 
 import org.geotools.referencing.CRS;
 import org.geotools.referencing.crs.DefaultGeographicCRS;

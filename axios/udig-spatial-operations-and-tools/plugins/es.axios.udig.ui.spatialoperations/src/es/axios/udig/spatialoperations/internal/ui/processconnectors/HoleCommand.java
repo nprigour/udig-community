@@ -22,7 +22,7 @@ package es.axios.udig.spatialoperations.internal.ui.processconnectors;
 
 import java.util.logging.Logger;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 import org.geotools.feature.SchemaException;
 import org.opengis.feature.simple.SimpleFeatureType;

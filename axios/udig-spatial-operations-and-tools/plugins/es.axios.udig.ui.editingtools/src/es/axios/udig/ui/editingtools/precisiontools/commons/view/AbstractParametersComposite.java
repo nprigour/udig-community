@@ -31,13 +31,13 @@ import java.util.Map.Entry;
 
 import javax.measure.unit.Unit;
 
-import net.refractions.udig.project.EditManagerEvent;
-import net.refractions.udig.project.IEditManager;
-import net.refractions.udig.project.IEditManagerListener;
-import net.refractions.udig.project.command.UndoableComposite;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.project.EditManagerEvent;
+import org.locationtech.udig.project.IEditManager;
+import org.locationtech.udig.project.IEditManagerListener;
+import org.locationtech.udig.project.command.UndoableComposite;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.EditToolHandler;
 
 import org.eclipse.jface.resource.JFaceResources;
 import org.eclipse.swt.SWT;

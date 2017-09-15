@@ -20,7 +20,7 @@
  */
 package es.axios.udig.spatialoperations.internal.parameters;
 
-import net.refractions.udig.project.ILayer;
+import org.locationtech.udig.project.ILayer;
 
 
 import org.opengis.feature.simple.SimpleFeatureType;

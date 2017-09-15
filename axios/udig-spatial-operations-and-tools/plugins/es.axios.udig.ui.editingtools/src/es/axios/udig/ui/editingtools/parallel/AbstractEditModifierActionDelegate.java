@@ -19,12 +19,12 @@
  * Lesser General Public License for more details.
  */
 package es.axios.udig.ui.editingtools.parallel;
-import net.refractions.udig.project.IBlackboard;
-import net.refractions.udig.project.IMap;
-import net.refractions.udig.project.ui.ApplicationGIS;
-import net.refractions.udig.project.ui.tool.IToolContext;
-import net.refractions.udig.tools.edit.Activator;
-import net.refractions.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.project.IBlackboard;
+import org.locationtech.udig.project.IMap;
+import org.locationtech.udig.project.ui.ApplicationGIS;
+import org.locationtech.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.tools.edit.Activator;
+import org.locationtech.udig.tools.edit.EditToolHandler;
 
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.viewers.ISelection;
@@ -46,7 +46,7 @@ import es.axios.udig.ui.editingtools.internal.commons.behaviour.IEditPointProvid
  * edit tool.
  * <p>
  * Actionset actions configured to for the toolbarPath
- * <code>"net.refractions.udig.tool.edit.behaviour"</code> will be grouped together and should
+ * <code>"org.locationtech.udig.tool.edit.behaviour"</code> will be grouped together and should
  * extend this base class minimally by implementing {@link #activate(EditToolHandler)}.
  * </p>
  * 

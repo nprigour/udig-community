@@ -20,15 +20,15 @@
  */
 package es.axios.udig.ui.editingtools.precisionsegmentcopy.internal.command;
 
-import net.refractions.udig.project.command.AbstractCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.EditUtils;
-import net.refractions.udig.tools.edit.support.Point;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.project.command.AbstractCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.EditUtils;
+import org.locationtech.udig.tools.edit.support.Point;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 

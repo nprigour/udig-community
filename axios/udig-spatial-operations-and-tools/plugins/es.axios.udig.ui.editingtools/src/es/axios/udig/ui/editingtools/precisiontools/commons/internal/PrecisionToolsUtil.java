@@ -22,12 +22,12 @@ package es.axios.udig.ui.editingtools.precisiontools.commons.internal;
 
 import java.io.IOException;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.internal.ProjectPlugin;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.SnapBehaviour;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.internal.ProjectPlugin;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.SnapBehaviour;
 
 import org.geotools.data.FeatureSource;
 import org.geotools.data.FeatureStore;

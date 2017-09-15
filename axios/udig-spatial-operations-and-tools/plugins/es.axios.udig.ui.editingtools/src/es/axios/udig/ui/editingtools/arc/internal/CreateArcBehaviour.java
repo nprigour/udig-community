@@ -20,14 +20,14 @@
  */
 package es.axios.udig.ui.editingtools.arc.internal;
 
-import net.refractions.udig.project.ILayer;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.command.factory.EditCommandFactory;
-import net.refractions.udig.project.internal.commands.edit.CreateFeatureCommand;
-import net.refractions.udig.tools.edit.Behaviour;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.support.PrimitiveShape;
+import org.locationtech.udig.project.ILayer;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.command.factory.EditCommandFactory;
+import org.locationtech.udig.project.internal.commands.edit.CreateFeatureCommand;
+import org.locationtech.udig.tools.edit.Behaviour;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.support.PrimitiveShape;
 
 import org.geotools.feature.simple.SimpleFeatureBuilder;
 import org.opengis.feature.IllegalAttributeException;

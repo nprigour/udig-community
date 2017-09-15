@@ -20,8 +20,8 @@
  */
 package es.axios.udig.ui.editingtools.precisionsegmentcopy.view;
 
-import net.refractions.udig.project.ui.IUDIGView;
-import net.refractions.udig.project.ui.tool.IToolContext;
+import org.locationtech.udig.project.ui.IUDIGView;
+import org.locationtech.udig.project.ui.tool.IToolContext;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;

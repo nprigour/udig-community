@@ -14,17 +14,17 @@
  */
 package es.axios.udig.ui.editingtools.internal.commons.behaviour;
 
-import net.refractions.udig.project.IBlackboard;
-import net.refractions.udig.project.command.UndoRedoCommand;
-import net.refractions.udig.project.command.UndoableMapCommand;
-import net.refractions.udig.project.ui.render.displayAdapter.MapMouseEvent;
-import net.refractions.udig.tools.edit.EditState;
-import net.refractions.udig.tools.edit.EditToolHandler;
-import net.refractions.udig.tools.edit.EventType;
-import net.refractions.udig.tools.edit.behaviour.AddVertexWhileCreatingBehaviour;
-import net.refractions.udig.tools.edit.preferences.PreferenceUtil;
-import net.refractions.udig.tools.edit.support.EditBlackboard;
-import net.refractions.udig.tools.edit.support.Point;
+import org.locationtech.udig.project.IBlackboard;
+import org.locationtech.udig.project.command.UndoRedoCommand;
+import org.locationtech.udig.project.command.UndoableMapCommand;
+import org.locationtech.udig.project.ui.render.displayAdapter.MapMouseEvent;
+import org.locationtech.udig.tools.edit.EditState;
+import org.locationtech.udig.tools.edit.EditToolHandler;
+import org.locationtech.udig.tools.edit.EventType;
+import org.locationtech.udig.tools.edit.behaviour.AddVertexWhileCreatingBehaviour;
+import org.locationtech.udig.tools.edit.preferences.PreferenceUtil;
+import org.locationtech.udig.tools.edit.support.EditBlackboard;
+import org.locationtech.udig.tools.edit.support.Point;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 
