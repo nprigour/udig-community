@@ -6,7 +6,7 @@ Bundle-Version: 1.3.3.qualifier
 Bundle-Vendor: Axios.es
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.core.runtime,
- org.locationtech.udig.project.ui;bundle-version="1.2.0"
+ org.locationtech.udig.project.ui
 Export-Package: 
  es.axios.geotools.util;
   uses:="org.geotools.feature.simple,
