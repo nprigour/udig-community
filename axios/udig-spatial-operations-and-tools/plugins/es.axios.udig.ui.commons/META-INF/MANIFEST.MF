@@ -43,6 +43,6 @@ Export-Package:
    org.opengis.referencing.crs,
    org.eclipse.swt.widgets,
    org.eclipse.jface.dialogs"
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: es.axios.udig.ui.commons.Activator

@@ -56,4 +56,4 @@ Export-Package: es.axios.udig.spatialoperations;uses:="org.osgi.framework,org.ec
    org.eclipse.ui",
  es.axios.udig.spatialoperations.ui.view.images
 x-friends: "es.axios.udig.ui.spatialoperations.tests"
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
