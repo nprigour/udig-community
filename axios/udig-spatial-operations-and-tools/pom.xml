@@ -71,7 +71,7 @@
                         <artifact>
                             <groupId>es.axios.udig</groupId>
                             <artifactId>es.axios.udig.target</artifactId>
-                            <version>4.4</version>
+                            <version>4.7</version>
                         </artifact>
                     </target>
                     <resolver>p2</resolver>
