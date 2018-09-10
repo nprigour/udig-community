@@ -7,7 +7,7 @@
 <unit id="org.locationtech.udig_base-feature.feature.group" version="0.0.0"/>
 <unit id="org.locationtech.udig_printing-feature.feature.group" version="0.0.0"/>
 <unit id="org.locationtech.udig-feature.feature.group" version="0.0.0"/>
-<repository location="jar:file:/D:/Repositories/git/udig-locationtech/features/org.locationtech.udig_sdk-feature/target/udig-2.0.0-SNAPSHOT-sdk.zip!/"/>
+<repository location="jar:file:/D:/Repositories/git/udig-locationtech/features/org.locationtech.udig_sdk-feature/target/udig-2.1.0-SNAPSHOT-sdk.zip!/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.apache.batik.dom" version="1.7.1.v201505191845"/>
@@ -105,7 +105,7 @@
 <unit id="org.apache.ant" version="0.0.0"/>
 <unit id="org.eclipse.ui.ide" version="0.0.0"/>
 <unit id="org.eclipse.ui.ide.application" version="0.0.0"/>
-<repository location="http://download.eclipse.org/releases/neon/"/>
+<repository location="http://download.eclipse.org/releases/oxygen/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="javax.media.jai_imageio-feature.feature.group" version="1.1.3"/>
